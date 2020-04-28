@@ -16,15 +16,15 @@ if ("serviceWorker" in navigator) {
 
 const CACHE_NAME = "my-wev-v0";
 const urlsToCache = [
-  "/",
-  "/images/icon-16.png",
-  "/images/icon-32.png",
-  "/images/icon-48.png",
-  "/images/icon-128.png",
-  "/images/icon-144.png",
-  "/manifest.json",
-  "/index.html",
-  "/sw.js",
+  "./",
+  "./images/icon-16.png",
+  "./images/icon-32.png",
+  "./images/icon-48.png",
+  "./images/icon-128.png",
+  "./images/icon-144.png",
+  "./manifest.json",
+  "./index.html",
+  "./sw.js",
 ];
 
 self.addEventListener("install", (e) => {
